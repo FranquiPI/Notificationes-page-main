@@ -1,0 +1,21 @@
+{
+  "name": "notificationes-page-main",
+  "version": "1.0.0",
+  "description": "Notification Page Challenge from Frontend Mentor",
+  "license": "ISC",
+  "author": "Franco Pizarro",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx @tailwindcss/cli -i ./notifications-page-main/assets/css/config.css -o ./notifications-page-main/assets/css/app.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
+  }
+}
