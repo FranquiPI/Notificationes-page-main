@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Notifications page
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
@@ -94,3 +95,8 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+Notification Page Challenge from Frontend Mentor
+With HTML, TAILWIND CSS AND JAVASCRIPT.
+Techniques like responsive design and mobile-first
+>>>>>>> 0d3de64aabca078759954e8a3fe2fe4294b4a9ad
