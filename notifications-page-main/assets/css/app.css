@@ -500,9 +500,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -641,9 +638,6 @@
   }
   .animate-none {
     animation: none;
-  }
-  .cursor-alias {
-    cursor: alias;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -1365,9 +1359,6 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
@@ -1385,9 +1376,6 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
-  }
-  .bg-transparent {
-    background-color: transparent;
   }
   .bg-white {
     background-color: var(--color-white);
@@ -1563,9 +1551,6 @@
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);
-  }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
   }
   .px-2\.5 {
     padding-inline: calc(var(--spacing) * 2.5);
@@ -1743,14 +1728,8 @@
   .text-\(--Grayish-blue\) {
     color: var(--Grayish-blue);
   }
-  .text-\(--VeGrayish-blue\) {
-    color: var(--VeGrayish-blue);
-  }
   .text-\(--Very-dark-blue\) {
     color: var(--Very-dark-blue);
-  }
-  .text-\(--VeryGrayish-blue\) {
-    color: var(--VeryGrayish-blue);
   }
   .text-black {
     color: var(--color-black);
@@ -2365,6 +2344,11 @@
     @media (prefers-color-scheme: dark) {
       color: var(--color-white);
     }
+  }
+}
+@layer {
+  .bg-very-light-grayish-blue {
+    background: hsl(210, 60%, 98%);
   }
 }
 @property --tw-translate-x {

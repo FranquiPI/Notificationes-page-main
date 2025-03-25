@@ -22,47 +22,49 @@
 </head>
 
 <body class="box-border max-w-full px-4 py-5 select-none flex flex-col text-sm xl:text-base">
-  <div class="max-w-xl m-auto">
+
+  <div id="notificationContainer" class="max-w-xl m-auto">
 
   <div class="flex w-full justify-between mb-6">
+    <h3 class="text-(--Very-dark-blue) font-bold text-lg">Notifications<span id="notification-count" class="bg-(--Blue) text-white px-2.5 ml-1 rounded-md text-sm">3</span></h3>
 
-    <h3 class="text-(--Very-dark-blue) font-bold text-lg">Notifications<span class="bg-(--Blue) text-white px-2.5 ml-1 rounded-md text-sm notificationsNum">3</span></h3>
     <p id="mark-all" class="flex items-center text-xs text-(--Dark-grayish-blue) cursor-pointer hover:text-(--Blue) active:font-bold">Mark all as read</p>
+
   </div>
 
-  <div class="bg-(--Very-light-grayish-blue) flex mt-5 p-4 rounded-md cursor-pointer notificationPost">
+  <div class="bg-very-light-grayish-blue flex mt-5 p-4 rounded-md cursor-pointer notificationItem">
       <img src="./assets/images/avatar-mark-webber.webp" alt="" class="size-10">
       <div class="pl-2">
         <p>
           <span class="text-(--Very-dark-blue) font-bold cursor-pointer hover:text-(--Blue)">Mark Webber</span> 
           <span class= "text-(--Dark-grayish-blue)">reacted to your recent post</span> 
           <span class="text-(--Very-dark-blue) font-bold cursor-pointer hover:text-(--Blue)">My first tournament today!</span>
-            <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle not-read"></span>
+            <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle notification-dot"></span>
         </p>
         <p class="text-(--Grayish-blue) text-sm font-medium">1m ago</p>      
       </div>
   </div>
 
-  <div class="bg-(--Very-light-grayish-blue) flex mt-5 p-4 rounded-md cursor-pointer notificationPost">
+  <div class="bg-very-light-grayish-blue flex mt-5 p-4 rounded-md cursor-pointer notificationItem">
     <img src="./assets/images/avatar-angela-gray.webp" alt="" class="size-10">
     <div class="pl-2">
       <p>
         <span class="text-(--Very-dark-blue) font-bold cursor-pointer active:text-(--Blue)">Angela Gray </span>
         <span class="text-(--Dark-grayish-blue)">followed you</span>
-        <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle not-read"></span>
+        <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle notification-dot"></span>
       </p>
       <p class="text-(--Grayish-blue) text-sm font-medium">5m ago</p>
     </div>
   </div>
 
-  <div class="bg-(--Very-light-grayish-blue) flex mt-5 p-4 rounded-md cursor-pointer notificationPost">
+  <div class="bg-very-light-grayish-blue flex mt-5 p-4 rounded-md cursor-pointer notificationItem">
     <img src="./assets/images/avatar-jacob-thompson.webp" alt="" class="size-10">
     <div class="pl-2">
       <p>
         <span class="text-(--Very-dark-blue) font-bold cursor-pointer">Jacob Thompson</span>
         <span class="text-(--Dark-grayish-blue)">has joined your group</span>
         <span class="text-(--Blue) font-bold hover:cursor-pointer"> Chess Club</span>
-        <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle not-read"></span>
+        <span class="bg-(--Red) w-2 h-2 inline-block rounded-full ml-2 align-middle notification-dot"></span>
       </p>
       <p class="text-(--Grayish-blue) text-sm font-medium">1 day ago</p>
     </div>

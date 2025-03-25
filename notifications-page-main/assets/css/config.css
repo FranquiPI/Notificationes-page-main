@@ -12,4 +12,12 @@
     /*PRIMRAY COLORS*/
     --Red: hsl(1, 90%, 64%);
     --Blue: hsl(219, 85%, 26%);
+
+    
+}
+
+@layer {
+    .bg-very-light-grayish-blue{
+        background: hsl(210, 60%, 98%);
+    }
 }
